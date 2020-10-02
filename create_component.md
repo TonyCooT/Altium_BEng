@@ -40,8 +40,8 @@
 6. Перейти в настройки всего компонента, щелкнув по любой части схемы вне его и нажав _F11_. Заполнить поля _Design Item ID_, _Designator_, _Comment_ и _Description_ следующим образом
     1. _Design Item ID_ - начинается с позиционного обозначения (для конденсатора - С), затем дефис и надпись, какая именно - вопрос открыт. Лучше всего примерно в таком виде - _C-50.0V_, где _50.0V_ - это номинальное напряжение данного конденсатора
     2. _Designator_ - позиционное обозначение конденсатора со знаком вопроса, который на схеме _Altium_ почти автоматически сам изменит на цифру
-    3. _Comment_ - в данном случае мы вписываем сюда значение поля "Номинал" для этого компонента из _Excel_-файла библиотеки
-    4. _Description_ - вписываем сюда значение поля "Описание" для этого компонента из _Excel_-файла библиотеки
+    3. _Comment_ - в данном случае мы вписываем сюда "=Номинал", при использовании компонента надпись автоматически заменится на значение его поля "Номинал" из _Excel_-файла библиотеки
+    4. _Description_ - вписываем сюда "=Описание", при использовании компонента надпись автоматически заменится на значение его поля "Описание" из _Excel_-файла библиотеки
 
 ![create_component_8](images/create_component/create_component_8.png)
 
@@ -59,7 +59,7 @@
 
 ![create_component_11](images/create_component/create_component_11.png)
 
-3. В поле _Package Type_ выбрать нужный компонент. В поле _Polarity Pin Location_ данному конденсатору соответствует пункт _None_. Остальные поля с размерами заполняются согласно документации
+3. В поле _Package Type_ выбрать нужный компонент. В поле _Polarity Pin Location_ данному неполярному конденсатору соответствует пункт _None_. Остальные поля с размерами заполняются согласно документации
 
 ![create_component_12](images/create_component/create_component_12.png)
 
@@ -68,9 +68,9 @@
 ![create_component_13](images/create_component/create_component_13.png)
 
 5. Далее нажимать _Next_, не меняя настроек, до появления следующего окна. Проверить пункты
-    1. _Add Courtyard Information (Зона запрещения) - толщина линии 0,05 мм, расположение на слое _Mechanical Layer 15_
-    2. _Add Assembly Information (Контур корпуса) - толщина линии 0,1 мм, расположение на слое _Mechanical Layer 11_
-    3. _Add Component Body Information (3D-модель) - расположение на слое _Mechanical Layer 13_
+    1. _Add Courtyard Information_ (Зона запрещения) - толщина линии _Line Width_ 0,05 мм, расположение _Layer_ на слое _Mechanical Layer 15_
+    2. _Add Assembly Information_ (Контур корпуса) - толщина линии _Line Width_ 0,1 мм, расположение _Layer_ на слое _Mechanical Layer 11_
+    3. _Add Component Body Information_ (3D-модель) - расположение _Layer_ на слое _Mechanical Layer 13_
 
 ![create_component_14](images/create_component/create_component_14.png)
 
@@ -90,7 +90,7 @@
 
 ![create_component_19](images/create_component/create_component_19.png)
 
-9. Внизу рабочего окна выбрать нужный слой и добавить с помощью _String_ надписи. На слой _Mechanical 7_ - _.Comment_, на слой  _Mechanical 9_ - _.Designator_ (точка обязательна). Открыть свойства, выбрав их и нажав _F11_, проверить шрифт и высоту текста. Должно быть _GOST MT_, _Bold_, высота текста 1,2 мм
+9. Внизу рабочего окна выбрать нужный слой и добавить с помощью _String_ надписи. На слой _Mechanical 7_ - _.Comment_, на слой  _Mechanical 9_ - _.Designator_ (точка обязательна). Открыть свойства надписей, выбрав их и нажав _F11_, проверить шрифт и высоту текста. Должно быть _GOST MT_, _Bold(B)_, высота текста 1,2 мм
 
 ![create_component_20](images/create_component/create_component_20.png)
 
