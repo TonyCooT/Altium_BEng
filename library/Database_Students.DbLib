@@ -1,11 +1,11 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=D:\githyb\Altium_BEng\library\Database_Students.xlsx;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
+ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\Users\Антон\Desktop\Программирование микроконтроллеров для управления роботами 7 семестр 2020, 3331506.70401\Library\Source\Database_Students.xlsx;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=1
+ViewMode=0
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
@@ -19,7 +19,7 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Кварцевые резонаторы$
+LastFocusedTable=Диодные сборки$
 [Table1]
 SchemaName=
 TableName=Диодные сборки$
@@ -46,7 +46,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=39|Фамилия0=70|Описание0=127|Наименование0=116|Производитель0=170|Корпус0=63|Частота0=64|Library Path0=158|Library Ref0=116|Footprint Path0=166|Footprint Ref0=114|HelpURL0=470
+BrowserOrder_Visible=ID0=39|Library Path0=157|Library Ref0=112|Footprint Path0=166|Footprint Ref0=114|Фамилия0=70|Описание0=167|Наименование0=112|Производитель0=170|Корпус0=63|Частота0=64|HelpURL0=445
 [Table4]
 SchemaName=
 TableName=Конденсаторы$
@@ -73,7 +73,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=37|Library Path0=153|Library Ref0=105|Footprint Path0=131|Footprint Ref0=92|Фамилия0=70|Описание0=271|Наименование0=104|Производитель0=143|Примечание0=92|HelpURL0=416
+BrowserOrder_Visible=ID0=37|Library Path0=153|Library Ref0=105|Footprint Path0=146|Footprint Ref0=92|Фамилия0=70|Описание0=271|Наименование0=104|Производитель0=143|Примечание0=92|HelpURL0=301
 [Table7]
 SchemaName=
 TableName=Резисторы$
@@ -100,7 +100,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=Library Path0=127|Library Ref0=80|Footprint Path0=129|Footprint Ref0=92|ID0=35|Фамилия0=70|Описание0=188|Наименование0=104|Производитель0=170|Сопротивление, 100 МГц0=157|Отклонение, 100 Мгц0=138|Сопротивление при постоянном токе0=228|Рабочие температуры0=142|Корпус0=60|Примечание0=92|HelpURL0=494
+BrowserOrder_Visible=Footprint Path0=126|Footprint Ref0=92|ID0=35|Library Ref0=80|Library Path0=127|Фамилия0=70|Описание0=188|Наименование0=104|Производитель0=170|Сопротивление, 100 МГц0=157|Отклонение, 100 Мгц0=138|Сопротивление при постоянном токе0=228|Рабочие температуры0=142|Корпус0=60|Примечание0=92|HelpURL0=494
 [FieldMap1]
 Options=FieldName=Диодные сборки$.ID|TableNameOnly=Диодные сборки$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -182,12 +182,12 @@ Options=FieldName=Светодиоды$.Footprint Path|TableNameOnly=Светодиоды$|FieldName
 [FieldMap40]
 Options=FieldName=Светодиоды$.Footprint Ref|TableNameOnly=Светодиоды$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap41]
-Options=FieldName=Ферритовая бусина$.Library Path|TableNameOnly=Ферритовая бусина$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap42]
-Options=FieldName=Ферритовая бусина$.Library Ref|TableNameOnly=Ферритовая бусина$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap43]
 Options=FieldName=Ферритовая бусина$.Footprint Path|TableNameOnly=Ферритовая бусина$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap44]
+[FieldMap42]
 Options=FieldName=Ферритовая бусина$.Footprint Ref|TableNameOnly=Ферритовая бусина$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap45]
+[FieldMap43]
 Options=FieldName=Ферритовая бусина$.ID|TableNameOnly=Ферритовая бусина$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap44]
+Options=FieldName=Ферритовая бусина$.Library Ref|TableNameOnly=Ферритовая бусина$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap45]
+Options=FieldName=Ферритовая бусина$.Library Path|TableNameOnly=Ферритовая бусина$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
