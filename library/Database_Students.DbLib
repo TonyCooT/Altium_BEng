@@ -1,11 +1,11 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\Users\Антон\Desktop\Программирование микроконтроллеров для управления роботами 7 семестр 2020, 3331506.70401\Library\Source\Database_Students.xlsx;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
+ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=D:\Github\Altium_BEng\library\Database_Students.xlsx;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=0
+ViewMode=1
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
@@ -19,55 +19,79 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Диодные сборки$
+LastFocusedTable=Преобразователи интейфесов$
 [Table1]
 SchemaName=
 TableName=Диодные сборки$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=44|Library Ref0=80|Footprint Path0=112|Footprint Ref0=92|Library Path0=132|Фамилия0=70|Описание0=344|Наименование0=104|Производитель0=106|Корпус0=60|Примечание0=92|HelpURL0=618
 [Table2]
 SchemaName=
 TableName=Диоды$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=44|Library Path0=143|Library Ref0=99|Footprint Path0=115|Footprint Ref0=92|Фамилия0=70|Описание0=132|Наименование0=104|Производитель0=150|Пиковое прямое напряжение0=185|Импульсное обратное напряжение0=214|Макс# допустимый средний прямой ток0=239|Рабочие температуры0=142|Корпус0=61|Примечание0=92|HelpURL0=248
 [Table3]
 SchemaName=
 TableName=Конденсаторы$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=37|Library Ref0=78|Footprint Path0=123|Footprint Ref0=92|Library Path0=165|Фамилия0=70|Описание0=287|Наименование0=114|Производитель0=150|Номинал0=72|Отклонение0=89|Номинальное напряжение0=169|Рабочие температуры0=142|Корпус0=60|Примечание0=92|HelpURL0=585
 [Table4]
 SchemaName=
 TableName=Преобразователи интейфесов$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=46|Library Path0=111|Library Ref0=77|Footprint Path0=112|Footprint Ref0=92|Фамилия0=70|Описание0=189|Наименование0=104|Производитель0=143|Корпус0=60|Примечание0=92|HelpURL0=500
 [Table5]
 SchemaName=
 TableName=Разъемы$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=37|Library Path0=153|Library Ref0=105|Footprint Path0=131|Footprint Ref0=92|Фамилия0=70|Описание0=271|Наименование0=104|Производитель0=106|Примечание0=92|HelpURL0=301
 [Table6]
 SchemaName=
 TableName=Резисторы$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=36|Library Ref0=77|Footprint Path0=98|Footprint Ref0=92|Library Path0=152|Фамилия0=70|Описание0=212|Наименование0=105|Производитель0=106|Номинал0=72|Отклонение0=89|Номинальное напряжение0=169|Рабочие температуры0=142|Номинальный ток0=121|Корпус0=60|Примечание0=92|HelpURL0=591
 [Table7]
 SchemaName=
 TableName=Светодиоды$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=42|Library Path0=124|Library Ref0=78|Footprint Path0=101|Footprint Ref0=92|Фамилия0=70|Описание0=221|Наименование0=104|Производитель0=150|Цвет0=69|Номинальная сила света0=155|Номинальная длина волны0=169|Номинальный прямой ток0=166|Номинальное падение напряжение0=217|Рассеиваемая мощность0=153|Рабочие температуры0=142|Корпус0=60|Примечание0=108|HelpURL0=258
 [Table8]
 SchemaName=
 TableName=Ферритовая бусина$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Library Path0=127|Library Ref0=80|Footprint Path0=129|Footprint Ref0=92|ID0=35|Фамилия0=70|Описание0=188|Наименование0=104|Производитель0=170|Сопротивление, 100 МГц0=157|Отклонение, 100 Мгц0=138|Сопротивление при постоянном токе0=228|Рабочие температуры0=142|Корпус0=60|Примечание0=92|HelpURL0=494
 [FieldMap1]
 Options=FieldName=Диодные сборки$.ID|TableNameOnly=Диодные сборки$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -146,3 +170,5 @@ Options=FieldName=Ферритовая бусина$.Library Ref|TableNameOnly=Ферритовая бусина
 Options=FieldName=Ферритовая бусина$.Footprint Path|TableNameOnly=Ферритовая бусина$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap39]
 Options=FieldName=Ферритовая бусина$.Footprint Ref|TableNameOnly=Ферритовая бусина$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap40]
+Options=FieldName=Ферритовая бусина$.ID|TableNameOnly=Ферритовая бусина$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
