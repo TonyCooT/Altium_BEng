@@ -1,11 +1,11 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\Users\denik\Desktop\Учёба\Печатные платы\Библиотека\Altium_BEng\library\Database_Students.xlsx;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
+ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=D:\githyb\Altium_BEng\library\Database_Students.xlsx;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=1
+ViewMode=0
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
@@ -19,16 +19,13 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Преобразователи интейфесов$
+LastFocusedTable=Кварцевые резонаторы$
 [Table1]
 SchemaName=
 TableName=Диодные сборки$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=44|Library Ref0=80|Footprint Path0=112|Footprint Ref0=92|Library Path0=132|Фамилия0=70|Описание0=344|Наименование0=104|Производитель0=106|Корпус0=60|Примечание0=92|HelpURL0=618
 [Table2]
 SchemaName=
 TableName=Диоды$
@@ -56,9 +53,6 @@ TableName=Преобразователи интейфесов$
 Enabled=True
 UserWhere=0
 UserWhereText=[ID] = '{ID}'
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=46|Фамилия0=70|Описание0=189|Наименование0=104|Производитель0=143|Корпус0=60|Примечание0=92|Library Path0=113|Library Ref0=77|Footprint Path0=112|Footprint Ref0=92|HelpURL0=500
 [Table6]
 SchemaName=
 TableName=Разъемы$
@@ -67,16 +61,13 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=37|Фамилия0=70|Описание0=271|Наименование0=104|Производитель0=143|Примечание0=92|Library Path0=153|Library Ref0=105|Footprint Path0=146|Footprint Ref0=92|HelpURL0=301
+BrowserOrder_Visible=ID0=37|Library Path0=153|Library Ref0=105|Footprint Path0=146|Footprint Ref0=92|Фамилия0=70|Описание0=271|Наименование0=104|Производитель0=143|Примечание0=92|HelpURL0=301
 [Table7]
 SchemaName=
 TableName=Резисторы$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Library Path0=152|Library Ref0=77|Footprint Path0=98|Footprint Ref0=92|ID0=36|Фамилия0=70|Описание0=212|Наименование0=105|Производитель0=106|Номинал0=72|Отклонение0=89|Номинальное напряжение0=169|Рабочие температуры0=142|Номинальный ток0=121|Корпус0=60|Примечание0=92|HelpURL0=591
 [Table8]
 SchemaName=
 TableName=Светодиоды$
@@ -89,9 +80,6 @@ TableName=Ферритовая бусина$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=Library Path0=127|Library Ref0=80|Footprint Path0=126|Footprint Ref0=92|ID0=35|Фамилия0=70|Описание0=188|Наименование0=104|Производитель0=170|Сопротивление, 100 МГц0=157|Отклонение, 100 Мгц0=138|Сопротивление при постоянном токе0=228|Рабочие температуры0=142|Корпус0=60|Примечание0=92|HelpURL0=494
 [FieldMap1]
 Options=FieldName=Диодные сборки$.ID|TableNameOnly=Диодные сборки$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
