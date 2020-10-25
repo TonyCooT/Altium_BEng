@@ -1,11 +1,11 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=D:\Study\4 course\altium\library\sources\Altium_BEng\library\Database_Students.xlsx;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
+ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\Users\Антон\Desktop\Программирование микроконтроллеров для управления роботами 7 семестр 2020, 3331506.70401\Library\Source\Database_Students.xlsx;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=0
+ViewMode=1
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
@@ -19,43 +19,49 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=EEPROM$
+LastFocusedTable=Переключатели$
 [Table1]
-SchemaName=
-TableName=EEPROM$
-Enabled=True
-UserWhere=0
-UserWhereText=
-[Table2]
 SchemaName=
 TableName=Диодные сборки$
 Enabled=True
 UserWhere=0
 UserWhereText=
-[Table3]
+[Table2]
 SchemaName=
 TableName=Диоды$
 Enabled=True
 UserWhere=0
 UserWhereText=
-[Table4]
+[Table3]
 SchemaName=
 TableName=Кварцевые резонаторы$
 Enabled=True
 UserWhere=0
 UserWhereText=
-[Table5]
+[Table4]
 SchemaName=
 TableName=Конденсаторы$
 Enabled=True
 UserWhere=0
 UserWhereText=
+[Table5]
+SchemaName=
+TableName=ПЗУ$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Library Path0=132|Library Ref0=82|Footprint Path0=106|Footprint Ref0=92|ID0=44|Фамилия0=70|Описание0=123|Наименование0=104|Производитель0=143|Корпус0=60|Примечание0=92|HelpURL0=290
 [Table6]
 SchemaName=
 TableName=Переключатели$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=46|Library Path0=115|Library Ref0=77|Footprint Path0=208|Footprint Ref0=156|Фамилия0=70|Описание0=253|Наименование0=104|Производитель0=106|Ток нагрузки0=93|Сопротивление контакта0=159|Количество контактов0=143|Рабочие температуры0=142|Промывка0=79|Корпус0=81|Примечание0=92|HelpURL0=457
 [Table7]
 SchemaName=
 TableName=Преобразователи интейфесов$
@@ -87,55 +93,55 @@ Enabled=True
 UserWhere=0
 UserWhereText=
 [FieldMap1]
-Options=FieldName=EEPROM$.ID|TableNameOnly=EEPROM$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap2]
-Options=FieldName=EEPROM$.Library Path|TableNameOnly=EEPROM$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap3]
-Options=FieldName=EEPROM$.Library Ref|TableNameOnly=EEPROM$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap4]
-Options=FieldName=EEPROM$.Footprint Path|TableNameOnly=EEPROM$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap5]
-Options=FieldName=EEPROM$.Footprint Ref|TableNameOnly=EEPROM$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap6]
 Options=FieldName=Диодные сборки$.ID|TableNameOnly=Диодные сборки$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap7]
+[FieldMap2]
 Options=FieldName=Диодные сборки$.Library Ref|TableNameOnly=Диодные сборки$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap8]
+[FieldMap3]
 Options=FieldName=Диодные сборки$.Footprint Path|TableNameOnly=Диодные сборки$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap9]
+[FieldMap4]
 Options=FieldName=Диодные сборки$.Footprint Ref|TableNameOnly=Диодные сборки$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap10]
+[FieldMap5]
 Options=FieldName=Диодные сборки$.Library Path|TableNameOnly=Диодные сборки$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap11]
+[FieldMap6]
 Options=FieldName=Диоды$.Library Path|TableNameOnly=Диоды$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap12]
+[FieldMap7]
 Options=FieldName=Диоды$.Library Ref|TableNameOnly=Диоды$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap13]
+[FieldMap8]
 Options=FieldName=Диоды$.Footprint Path|TableNameOnly=Диоды$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap14]
+[FieldMap9]
 Options=FieldName=Диоды$.Footprint Ref|TableNameOnly=Диоды$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap15]
+[FieldMap10]
 Options=FieldName=Диоды$.ID|TableNameOnly=Диоды$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap16]
+[FieldMap11]
 Options=FieldName=Кварцевые резонаторы$.Library Path|TableNameOnly=Кварцевые резонаторы$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap17]
+[FieldMap12]
 Options=FieldName=Кварцевые резонаторы$.Library Ref|TableNameOnly=Кварцевые резонаторы$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap18]
+[FieldMap13]
 Options=FieldName=Кварцевые резонаторы$.Footprint Path|TableNameOnly=Кварцевые резонаторы$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap19]
+[FieldMap14]
 Options=FieldName=Кварцевые резонаторы$.Footprint Ref|TableNameOnly=Кварцевые резонаторы$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap20]
+[FieldMap15]
 Options=FieldName=Кварцевые резонаторы$.ID|TableNameOnly=Кварцевые резонаторы$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap21]
+[FieldMap16]
 Options=FieldName=Конденсаторы$.Library Path|TableNameOnly=Конденсаторы$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap22]
+[FieldMap17]
 Options=FieldName=Конденсаторы$.Library Ref|TableNameOnly=Конденсаторы$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap23]
+[FieldMap18]
 Options=FieldName=Конденсаторы$.Footprint Path|TableNameOnly=Конденсаторы$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap24]
+[FieldMap19]
 Options=FieldName=Конденсаторы$.Footprint Ref|TableNameOnly=Конденсаторы$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap25]
+[FieldMap20]
 Options=FieldName=Конденсаторы$.ID|TableNameOnly=Конденсаторы$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap21]
+Options=FieldName=ПЗУ$.Library Path|TableNameOnly=ПЗУ$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap22]
+Options=FieldName=ПЗУ$.Library Ref|TableNameOnly=ПЗУ$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap23]
+Options=FieldName=ПЗУ$.Footprint Path|TableNameOnly=ПЗУ$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap24]
+Options=FieldName=ПЗУ$.Footprint Ref|TableNameOnly=ПЗУ$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap25]
+Options=FieldName=ПЗУ$.ID|TableNameOnly=ПЗУ$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap26]
 Options=FieldName=Переключатели$.ID|TableNameOnly=Переключатели$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap27]
