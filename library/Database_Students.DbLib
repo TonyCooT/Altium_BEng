@@ -26,9 +26,6 @@ TableName=EEPROM$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=56|Фамилия0=82|Описание0=107|Наименование0=120|Производитель0=123|Примечание0=106|Library Path0=221|Library Ref0=106|Footprint Path0=188|Footprint Ref0=125
 [Table2]
 SchemaName=
 TableName=Диодные сборки$
@@ -65,9 +62,6 @@ TableName=Преобразователи интейфесов$
 Enabled=True
 UserWhere=0
 UserWhereText=[ID] = '{ID}'
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=58|Library Path0=175|Library Ref0=117|Footprint Path0=135|Footprint Ref0=105|Фамилия0=82|Описание0=216|Наименование0=120|Производитель0=170|Корпус0=70|Примечание0=106|HelpURL0=602
 [Table8]
 SchemaName=
 TableName=Разъемы$
@@ -80,6 +74,9 @@ TableName=Резисторы$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Library Path0=182|Library Ref0=91|Footprint Path0=117|Footprint Ref0=105|ID0=47|Фамилия0=82|Описание0=264|Наименование0=135|Производитель0=123|Номинал0=83|Отклонение0=102|Номинальное напряжение0=195|Рабочие температуры0=167|Номинальный ток0=141|Корпус0=70|Примечание0=106|HelpURL0=704
 [Table10]
 SchemaName=
 TableName=Светодиоды$
