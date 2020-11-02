@@ -15,7 +15,7 @@
 ### Активные, пассивные компоненты и др.
 
 1. _Bourns, Inc._ (_https://www.bourns.com_)
-2. _KOA Speer Electronics, Inc_ (_http://www.koaspeer.com_) - резисторы и др.
+2. _KOA Speer Electronics, Inc._ (_http://www.koaspeer.com_) - резисторы и др.
 3. _Littelfuse, Inc._ (_https://www.littelfuse.com_) - диодные сборки и др.
 4. _Murata Manufacturing Co., Ltd._ (_https://www.murata.com_) - ферритовые бусины, кварцевые резонаторы и др.
 5. _Samsung electro-mechanics_ (_https://www.samsungsem.com/global/index.do_) - конденсаторы и др.
@@ -25,5 +25,5 @@
 ### Переключатели, разъемы и др.
 
 1. _C&K_ (_https://www.ckswitches.com_) - переключатели и др.
-2. _Connfly Electronic Co. LTD_ (_http://www.connfly.com_) - разъемы и др.
+2. _Connfly Electronic Co. LTD._ (_http://www.connfly.com_) - разъемы и др.
 3. _TE Connectivity_ (_https://www.te.com/usa-en/home.html_) - переключатели, разъемы и др.
