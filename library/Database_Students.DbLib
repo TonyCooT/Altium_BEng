@@ -1,7 +1,7 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=E:\GitHub\Altium_BEng\library\Database_Students.xlsx;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
+ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=D:\Altium_BEng\library\Database_Students.xlsx;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
@@ -19,133 +19,103 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Преобразователи интейфесов$
+LastFocusedTable=Транзисторы$
 [Table1]
 SchemaName=
 TableName=Диодные сборки$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=44|Фамилия0=70|Описание0=344|Наименование0=104|Производитель0=106|Корпус0=60|Примечание0=92|Library Path0=168|Library Ref0=127|Footprint Path0=117|Footprint Ref0=92|HelpURL0=618
 [Table2]
 SchemaName=
 TableName=Диоды$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=44|Фамилия0=70|Описание0=132|Наименование0=104|Производитель0=150|Пиковое прямое напряжение0=185|Импульсное обратное напряжение0=214|Макс допустимый средний прямой ток0=232|Рабочие температуры0=142|Корпус0=61|Примечание0=92|Library Path0=143|Library Ref0=99|Footprint Path0=117|Footprint Ref0=92|HelpURL0=248
 [Table3]
 SchemaName=
 TableName=Защитные микросхемы$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=46|Фамилия0=70|Описание0=214|Наименование0=104|Производитель0=106|Напряжение0=92|Максимальное напряжение0=174|Ток0=98|Рабочие температуры0=142|Корпус0=65|Примечание0=92|Library Path0=138|Library Ref0=86|Footprint Path0=119|Footprint Ref0=92|HelpURL0=198
 [Table4]
 SchemaName=
-TableName=Индуктивности$
+TableName=Катушки индуктивности$
 Enabled=True
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=35|Фамилия0=70|Описание0=167|Наименование0=104|Производитель0=106|Номинал0=72|Отклонение0=89|Номинальное активное сопротивление0=237|Максимальное активное сопротивление0=242|Частота резонанса0=123|Номинальный ток (при нагреве на 20 °С/40 °С)0=272|Ток насыщения0=106|Рабочее напряжение0=139|Рабочие температуры0=142|Корпус0=84|Примечание0=92|Library Path0=158|Library Ref0=121|Footprint Path0=179|Footprint Ref0=124|HelpURL0=582
+BrowserOrder_Visible=Library Path0=188|Library Ref0=152|Footprint Path0=224|Footprint Ref0=166|ID0=45|Фамилия0=82|Описание0=263|Наименование0=126|Производитель0=203|Номинал0=83|Отклонение0=102|Номинальное активное сопротивление0=275|Максимальное активное сопротивление0=282|Резонансная частота0=157|Номинальный ток (при нагреве на 20 °С/40 °С)0=326|Ток насыщения0=124|Рабочее напряжение0=160|Рабочие температуры0=167|Корпус0=108|Примечание0=106|HelpURL0=707|F220=48
 [Table5]
 SchemaName=
 TableName=Кварцевые резонаторы$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=39|Фамилия0=70|Описание0=167|Наименование0=112|Производитель0=170|Частота0=64|Корпус0=75|Примечание0=92|Library Path0=157|Library Ref0=112|Footprint Path0=166|Footprint Ref0=114|HelpURL0=445
 [Table6]
 SchemaName=
 TableName=Конденсаторы$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=37|Фамилия0=70|Описание0=292|Наименование0=118|Производитель0=150|Номинал0=72|Отклонение0=89|Номинальное напряжение0=169|Рабочие температуры0=142|Корпус0=135|Примечание0=92|Library Path0=165|Library Ref0=78|Footprint Path0=184|Footprint Ref0=129|HelpURL0=634
 [Table7]
 SchemaName=
 TableName=ПЗУ$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=44|Фамилия0=70|Описание0=123|Наименование0=104|Производитель0=143|Корпус0=60|Примечание0=92|Library Path0=132|Library Ref0=82|Footprint Path0=106|Footprint Ref0=92|HelpURL0=290
 [Table8]
 SchemaName=
 TableName=Переключатели$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=46|Фамилия0=70|Описание0=253|Наименование0=104|Производитель0=106|Ток нагрузки0=93|Сопротивление контакта0=159|Количество контактов0=143|Рабочие температуры0=142|Промывка0=79|Корпус0=81|Примечание0=92|Library Path0=115|Library Ref0=77|Footprint Path0=208|Footprint Ref0=156|HelpURL0=457
 [Table9]
 SchemaName=
-TableName=Преобразователи интейфесов$
+TableName=Преобразователи интерфейсов$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=46|Фамилия0=70|Описание0=178|Наименование0=104|Производитель0=143|Корпус0=78|Примечание0=92|Library Path0=143|Library Ref0=89|Footprint Path0=124|Footprint Ref0=92|HelpURL0=500
 [Table10]
 SchemaName=
 TableName=Преобразователи напряжения$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=46|Фамилия0=70|Описание0=323|Наименование0=115|Производитель0=106|Входное напряжение0=138|Выходное напряжение0=146|Коммутируемый ток0=131|Частота переключения0=147|Рабочие температуры0=142|Корпус0=78|Примечание0=92|Library Path0=158|Library Ref0=115|Footprint Path0=124|Footprint Ref0=92|HelpURL0=347
 [Table11]
 SchemaName=
 TableName=Разъемы$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=37|Фамилия0=70|Описание0=214|Наименование0=106|Производитель0=146|Примечание0=92|Library Path0=153|Library Ref0=105|Footprint Path0=159|Footprint Ref0=106|HelpURL0=301
 [Table12]
 SchemaName=
 TableName=Резисторы$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=36|Фамилия0=70|Описание0=227|Наименование0=105|Производитель0=144|Номинал0=72|Отклонение0=89|Номинальное напряжение0=169|Рабочие температуры0=142|Номинальный ток0=121|Корпус0=60|Примечание0=92|Library Path0=152|Library Ref0=77|Footprint Path0=98|Footprint Ref0=92|HelpURL0=591
 [Table13]
 SchemaName=
 TableName=Светодиоды$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=42|Фамилия0=70|Описание0=221|Наименование0=104|Производитель0=150|Цвет0=69|Номинальная сила света0=155|Номинальная длина волны0=169|Номинальный прямой ток0=166|Номинальное падение напряжения0=217|Рассеиваемая мощность0=153|Рабочие температуры0=142|Корпус0=60|Примечание0=108|Library Path0=124|Library Ref0=78|Footprint Path0=101|Footprint Ref0=92|HelpURL0=258
 [Table14]
 SchemaName=
-TableName=Ферритовая бусина$
+TableName=Транзисторы$
 Enabled=True
 UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=35|Фамилия0=70|Описание0=188|Наименование0=104|Производитель0=170|Сопротивление, 100 МГц0=157|Отклонение, 100 Мгц0=138|Сопротивление при постоянном токе0=228|Рабочие температуры0=142|Корпус0=60|Примечание0=92|Library Path0=127|Library Ref0=80|Footprint Path0=126|Footprint Ref0=92|HelpURL0=494
+BrowserOrder_Visible=Library Path0=163|Library Ref0=118|Footprint Path0=116|Footprint Ref0=105|ID0=54|Фамилия0=82|Описание0=301|Наименование0=120|Производитель0=123|Напряжение затвор-исток0=192|Напряжение сток-исток0=177|Ток стока0=85|Сопротивление сток-исток0=196|Рабочие температуры0=167|Корпус0=70|Примечание0=106|HelpURL0=744
+[Table15]
+SchemaName=
+TableName=Ферритовая бусина$
+Enabled=True
+UserWhere=0
+UserWhereText=
 [FieldMap1]
 Options=FieldName=Диодные сборки$.ID|TableNameOnly=Диодные сборки$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -177,25 +147,25 @@ Options=FieldName=Защитные микросхемы$.Footprint Path|TableNameOnly=Защитные мик
 [FieldMap15]
 Options=FieldName=Защитные микросхемы$.Footprint Ref|TableNameOnly=Защитные микросхемы$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap16]
-Options=FieldName=Индуктивности$.ID|TableNameOnly=Индуктивности$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Катушки индуктивности$.Library Path|TableNameOnly=Катушки индуктивности$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap17]
-Options=FieldName=Индуктивности$.Library Path|TableNameOnly=Индуктивности$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Катушки индуктивности$.Library Ref|TableNameOnly=Катушки индуктивности$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap18]
-Options=FieldName=Индуктивности$.Library Ref|TableNameOnly=Индуктивности$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Катушки индуктивности$.Footprint Path|TableNameOnly=Катушки индуктивности$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap19]
-Options=FieldName=Индуктивности$.Footprint Path|TableNameOnly=Индуктивности$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Катушки индуктивности$.Footprint Ref|TableNameOnly=Катушки индуктивности$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap20]
-Options=FieldName=Индуктивности$.Footprint Ref|TableNameOnly=Индуктивности$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Катушки индуктивности$.ID|TableNameOnly=Катушки индуктивности$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap21]
 Options=FieldName=Кварцевые резонаторы$.ID|TableNameOnly=Кварцевые резонаторы$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap22]
-Options=FieldName=Кварцевые резонаторы$.Library Path|TableNameOnly=Кварцевые резонаторы$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap23]
 Options=FieldName=Кварцевые резонаторы$.Library Ref|TableNameOnly=Кварцевые резонаторы$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap24]
+[FieldMap23]
 Options=FieldName=Кварцевые резонаторы$.Footprint Path|TableNameOnly=Кварцевые резонаторы$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
-[FieldMap25]
+[FieldMap24]
 Options=FieldName=Кварцевые резонаторы$.Footprint Ref|TableNameOnly=Кварцевые резонаторы$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap25]
+Options=FieldName=Кварцевые резонаторы$.Library Path|TableNameOnly=Кварцевые резонаторы$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap26]
 Options=FieldName=Конденсаторы$.ID|TableNameOnly=Конденсаторы$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap27]
@@ -227,15 +197,15 @@ Options=FieldName=Переключатели$.Footprint Path|TableNameOnly=Переключатели$|Fie
 [FieldMap40]
 Options=FieldName=Переключатели$.Footprint Ref|TableNameOnly=Переключатели$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap41]
-Options=FieldName=Преобразователи интейфесов$.ID|TableNameOnly=Преобразователи интейфесов$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Преобразователи интерфейсов$.ID|TableNameOnly=Преобразователи интерфейсов$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap42]
-Options=FieldName=Преобразователи интейфесов$.Library Path|TableNameOnly=Преобразователи интейфесов$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Преобразователи интерфейсов$.Library Path|TableNameOnly=Преобразователи интерфейсов$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap43]
-Options=FieldName=Преобразователи интейфесов$.Library Ref|TableNameOnly=Преобразователи интейфесов$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Преобразователи интерфейсов$.Library Ref|TableNameOnly=Преобразователи интерфейсов$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap44]
-Options=FieldName=Преобразователи интейфесов$.Footprint Path|TableNameOnly=Преобразователи интейфесов$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Преобразователи интерфейсов$.Footprint Path|TableNameOnly=Преобразователи интерфейсов$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap45]
-Options=FieldName=Преобразователи интейфесов$.Footprint Ref|TableNameOnly=Преобразователи интейфесов$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Преобразователи интерфейсов$.Footprint Ref|TableNameOnly=Преобразователи интерфейсов$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap46]
 Options=FieldName=Преобразователи напряжения$.ID|TableNameOnly=Преобразователи напряжения$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap47]
@@ -277,12 +247,22 @@ Options=FieldName=Светодиоды$.Footprint Path|TableNameOnly=Светодиоды$|FieldName
 [FieldMap65]
 Options=FieldName=Светодиоды$.Footprint Ref|TableNameOnly=Светодиоды$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap66]
-Options=FieldName=Ферритовая бусина$.ID|TableNameOnly=Ферритовая бусина$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Транзисторы$.Library Path|TableNameOnly=Транзисторы$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap67]
-Options=FieldName=Ферритовая бусина$.Library Path|TableNameOnly=Ферритовая бусина$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Транзисторы$.Library Ref|TableNameOnly=Транзисторы$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap68]
-Options=FieldName=Ферритовая бусина$.Library Ref|TableNameOnly=Ферритовая бусина$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Транзисторы$.Footprint Path|TableNameOnly=Транзисторы$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap69]
-Options=FieldName=Ферритовая бусина$.Footprint Path|TableNameOnly=Ферритовая бусина$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Транзисторы$.Footprint Ref|TableNameOnly=Транзисторы$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap70]
+Options=FieldName=Транзисторы$.ID|TableNameOnly=Транзисторы$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap71]
+Options=FieldName=Ферритовая бусина$.ID|TableNameOnly=Ферритовая бусина$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap72]
+Options=FieldName=Ферритовая бусина$.Library Path|TableNameOnly=Ферритовая бусина$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap73]
+Options=FieldName=Ферритовая бусина$.Library Ref|TableNameOnly=Ферритовая бусина$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap74]
+Options=FieldName=Ферритовая бусина$.Footprint Path|TableNameOnly=Ферритовая бусина$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap75]
 Options=FieldName=Ферритовая бусина$.Footprint Ref|TableNameOnly=Ферритовая бусина$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
