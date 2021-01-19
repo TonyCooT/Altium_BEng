@@ -12,7 +12,7 @@
 
 ### Создание условного графического обозначения (УГО)
 
-1. Найти стандарт на УГО выбранного компонента (для конденсаторов - ГОСТ 2.728-74)
+1. Найти стандарт на УГО выбранного компонента (в примере - стандарт на конденсаторы ГОСТ 2.728-74)
 
 ![](https://github.com/TonyCooT/Altium_BEng/blob/master/images/create_component/create_component_3.png)
 
@@ -84,7 +84,7 @@
 
 ![](https://github.com/TonyCooT/Altium_BEng/blob/master/images/create_component/create_component_17.png)
 
-8. Добавить слои _Mechanical 7_ и _Mechanical 9_ для отображения полей _Comment_ и _Designator_ компонента. Для этого горячей клавишей _L_ открыть окно _View Configuration_, далее _Layers -> Mechanical Layers -> Add Mechanical Layer_, заполнить поля - название слоя_Layer Name_ и номер слоя _Layer Number_ (например, _Mechanical 9_ и _9_)
+8. Добавить слои _Mechanical 7_ и _Mechanical 9_ для отображения информации с полей _Comment_ и _Designator_ компонента. Для этого горячей клавишей _L_ открыть окно _View Configuration_, далее _Layers -> Mechanical Layers -> Add Mechanical Layer_, заполнить поля - название слоя _Layer Name_ и номер слоя _Layer Number_ (например, _Mechanical 9_ и _9_)
 
 ![](https://github.com/TonyCooT/Altium_BEng/blob/master/images/create_component/create_component_18.png)
 
@@ -101,6 +101,6 @@
 
 11. Готово! Компонент создан
 
-12. *Для полноценной работы необходимо внести компонент в _Excel_-файл библиотеки (см. руководство "Пополнение библиотеки с помощью GitHub Desktop")
+12. *Для полноценной работы необходимо внести компонент в _Excel_-файл библиотеки (см. руководство "Пополнение библиотеки с помощью _GitHub Desktop_")
 
 _Warning!_ Заполнение многих полей, выбор названий файлов и другие действия во многом индивидуальны. В данном случае они обусловлены внутренними правилами организации библиотеки, логическими рассуждениями и накопленным опытом, а также действующими стандартами
