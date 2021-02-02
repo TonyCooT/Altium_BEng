@@ -1,7 +1,7 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\Users\Антон\Desktop\Современные методы авт. проектирования 8 семестр 2020, 3331506.70401\Library\Source\Database_Students.xlsx;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
+ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=D:\Altium_BEng\library\Database_Students.xlsx;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
@@ -19,16 +19,13 @@ LibrarySearchPath=
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=0
 SchemaName=
-LastFocusedTable=Диодные сборки$
+LastFocusedTable=Ферритовые бусины$
 [Table1]
 SchemaName=
 TableName=Диодные сборки$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=44|Library Ref0=127|Footprint Path0=117|Footprint Ref0=92|Library Path0=168|Фамилия0=70|Описание0=344|Наименование0=104|Производитель0=106|Корпус0=61|Примечание0=92|HelpURL0=618
 [Table2]
 SchemaName=
 TableName=Диоды$
@@ -101,9 +98,6 @@ TableName=Резисторные сборки$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=42|Фамилия0=70|Описание0=289|Наименование0=104|Производитель0=106|Номинал0=72|Отклонение0=89|Номинальное напряжение0=169|Номинальный ток0=121|Рабочие температуры0=142|Корпус0=60|Примечание0=92|Library Path0=144|Library Ref0=105|Footprint Path0=111|Footprint Ref0=92|HelpURL0=600
 [Table14]
 SchemaName=
 TableName=Резисторы$
@@ -130,10 +124,13 @@ UserWhere=0
 UserWhereText=
 [Table18]
 SchemaName=
-TableName=Ферритовая бусина$
+TableName=Ферритовые бусины$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=ID0=45|Фамилия0=82|Описание0=232|Наименование0=131|Производитель0=203|Сопротивление, 100 МГц0=187|Отклонение, 100 МГц0=165|Сопротивление при постоянном токе0=265|Рабочие температуры0=167|Корпус0=70|Примечание0=106|Library Path0=149|Library Ref0=98|Footprint Path0=155|Footprint Ref0=105|HelpURL0=867
 [FieldMap1]
 Options=FieldName=Диодные сборки$.ID|TableNameOnly=Диодные сборки$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
@@ -305,12 +302,12 @@ Options=FieldName=Транзисторы$.Footprint Path|TableNameOnly=Транзисторы$|FieldNa
 [FieldMap85]
 Options=FieldName=Транзисторы$.Footprint Ref|TableNameOnly=Транзисторы$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap86]
-Options=FieldName=Ферритовая бусина$.Library Path|TableNameOnly=Ферритовая бусина$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Ферритовые бусины$.ID|TableNameOnly=Ферритовые бусины$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap87]
-Options=FieldName=Ферритовая бусина$.Library Ref|TableNameOnly=Ферритовая бусина$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Ферритовые бусины$.Library Path|TableNameOnly=Ферритовые бусины$|FieldNameOnly=Library Path|FieldType=1|ParameterName=[Library Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap88]
-Options=FieldName=Ферритовая бусина$.Footprint Path|TableNameOnly=Ферритовая бусина$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Ферритовые бусины$.Library Ref|TableNameOnly=Ферритовые бусины$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap89]
-Options=FieldName=Ферритовая бусина$.Footprint Ref|TableNameOnly=Ферритовая бусина$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Ферритовые бусины$.Footprint Path|TableNameOnly=Ферритовые бусины$|FieldNameOnly=Footprint Path|FieldType=1|ParameterName=[Footprint Path]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap90]
-Options=FieldName=Ферритовая бусина$.ID|TableNameOnly=Ферритовая бусина$|FieldNameOnly=ID|FieldType=0|ParameterName=ID|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+Options=FieldName=Ферритовые бусины$.Footprint Ref|TableNameOnly=Ферритовые бусины$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
