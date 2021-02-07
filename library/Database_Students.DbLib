@@ -5,7 +5,7 @@ ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=D:\Altium_BEng\li
 AddMode=3
 RemoveMode=1
 UpdateMode=2
-ViewMode=0
+ViewMode=1
 LeftQuote=[
 RightQuote=]
 QuoteTableNames=1
@@ -56,9 +56,6 @@ TableName=Конденсаторы неполярные$
 Enabled=True
 UserWhere=0
 UserWhereText=
-BrowserOrder_Sorting=
-BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=48|Фамилия0=82|Описание0=295|Наименование0=159|Производитель0=203|Номинал0=83|Отклонение0=102|Номинальное напряжение0=195|Рабочие температуры0=167|Температурный коэффициент емкости0=272|Корпус0=70|Примечание0=106|Library Path0=193|Library Ref0=164|Footprint Path0=118|Footprint Ref0=105|HelpURL0=733|F180=48
 [Table7]
 SchemaName=
 TableName=Конденсаторы полярные$
@@ -67,7 +64,7 @@ UserWhere=0
 UserWhereText=
 BrowserOrder_Sorting=
 BrowserOrder_Grouping=
-BrowserOrder_Visible=ID0=48|Фамилия0=82|Описание0=461|Наименование0=147|Производитель0=179|Номинал0=83|Отклонение0=102|Номинальное напряжения0=195|Рабочие температуры0=167|Корпус0=149|Примечание0=106|Library Path0=169|Library Ref0=133|Footprint Path0=229|Footprint Ref0=170|HelpURL0=759|F170=48
+BrowserOrder_Visible=ID0=48|Фамилия0=82|Описание0=461|Наименование0=148|Производитель0=179|Номинал0=83|Отклонение0=102|Номинальное напряжение0=195|Эквивалентное последовательное сопротивление0=341|Среднеквадратичный размах пульсации тока0=314|Рабочие температуры0=167|Корпус0=149|Примечание0=106|Library Path0=169|Library Ref0=133|Footprint Path0=229|Footprint Ref0=170|HelpURL0=759
 [Table8]
 SchemaName=
 TableName=ПЗУ$
