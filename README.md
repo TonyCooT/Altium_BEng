@@ -45,6 +45,7 @@
 1. Подключение библиотеки - [смотри тут](tutorials/add_library.md)
 2. Создание компонента - [смотри тут](tutorials/create_component.md)
 3. Пополнение библиотеки с помощью _GitHub Desktop_ - [смотри тут](tutorials/use_github.md)
+4. Рассуждение на тему _3D_-модели компонента - [смотри тут](tutorials/add_3d_model.md)
 
 ### Полезное
 
@@ -52,3 +53,4 @@
 2. Полезные документы - [смотри тут](tutorials/standart.md)
 3. Назначение слоев печатной платы - [смотри тут](tutorials/layers.md)
 4. Список горячих клавиш в _Altium Designer_ - [смотри тут](tutorials/shortcuts.md)
+5. Ресурсы - [смотри тут](tutorials/resources.md)
