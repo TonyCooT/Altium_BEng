@@ -27,12 +27,13 @@
 8. [_Littelfuse, Inc._](https://www.littelfuse.com) - диодные сборки
 9. [_Murata Manufacturing Co., Ltd._](https://www.murata.com) - конденсаторы, электролитические конденсаторы, катушки индуктивности, ферритовые бусины, керамические резонаторы
 10. [_NIC Components Corp._](https://www.niccomp.com) - катушки индуктивности
-11. [_ON Semiconductor_](https://www.onsemi.com) - диоды, диодные сборки, полевые транзисторы
-12. [_Panasonic Corporation_](https://industrial.panasonic.com/ww) - электролитические конденсаторы
-13. [_Samsung Electro-Mechanics_](https://www.samsungsem.com/global/index.do) - конденсаторы
-14. [_TAI-TECH Advanced Electronics Co., Ltd._](https://www.tai-tech.com.tw/en/) - ферритовые бусины
-15. [_Vishay Intertechnology, Inc._](https://www.vishay.com) - резисторы, танталовые конденсаторы, электролитические конденсаторы, диоды, стабилитроны, светодиоды, полевые транзисторы
-16. [_YAGEO Corp._](https://www.yageo.com) - резисторы, конденсаторы
+11. [_Nichicon Corporation_](https://www.nichicon.co.jp/english/index.html) - электролитические конденсаторы
+12. [_ON Semiconductor_](https://www.onsemi.com) - диоды, диодные сборки, полевые транзисторы
+13. [_Panasonic Corporation_](https://industrial.panasonic.com/ww) - электролитические конденсаторы
+14. [_Samsung Electro-Mechanics_](https://www.samsungsem.com/global/index.do) - конденсаторы
+15. [_TAI-TECH Advanced Electronics Co., Ltd._](https://www.tai-tech.com.tw/en/) - ферритовые бусины
+16. [_Vishay Intertechnology, Inc._](https://www.vishay.com) - резисторы, танталовые конденсаторы, электролитические конденсаторы, диоды, стабилитроны, светодиоды, полевые транзисторы
+17. [_YAGEO Corp._](https://www.yageo.com) - резисторы, конденсаторы
 
 ### Переключатели, разъемы...
 
